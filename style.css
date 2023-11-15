@@ -9,7 +9,7 @@ ul{
 }
 
 .openBtn{
-    padding: 20px;
+
     background-color: aqua;
     cursor: pointer;
 }
@@ -39,6 +39,6 @@ ul{
     display: none;
 } */
 
-input#modal[type=checkbox]:checked~.modalBox{
+input.modal[type=checkbox]:checked~.modalBox{
     display: none;
 }
