@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+ul{
+    list-style: none;
+}
+
+.openBtn{
+    padding: 20px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.modalBox{
+    position: fixed;
+    width: 400px;
+    height: 300px;
+    border: 3px solid black;
+    left: 0;
+    right: 0%;
+    margin: auto;
+    top: 25%;
+}
+
+.closeBtn{
+    padding: 10px;
+    background-color: brown;
+    position: absolute;
+    top: 0;
+    right: 0%;
+    cursor: pointer;
+}
+
+/* input#modal[type=checkbox]:checked~.modalBox{
+    display: none;
+} */
+
+input#modal[type=checkbox]:checked~.modalBox
+{
+    display: none;
+}
